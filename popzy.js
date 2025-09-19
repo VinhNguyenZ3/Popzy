@@ -104,7 +104,7 @@ Popzy.prototype.build = function () {
   if (this._allButtonClose) {
     const btnClose = this._createElement(
       "button",
-      "snapmodal__close",
+      "popzy__close",
       "&times;"
     );
     btnClose.onclick = () => this.close();
